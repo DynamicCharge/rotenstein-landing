@@ -722,6 +722,31 @@ button, a {
   transition: .2s;
   border-color: #B34215 !important; }
 
+#gant-table-popup {
+  max-width: 1140px;
+  width: 100%; }
+  #gant-table-popup img {
+    max-width: inherit;
+    width: 100%; }
+
+#map-popup {
+  max-width: 1024px; }
+
+#map {
+  max-width: 1024px;
+  width: 100%; }
+
+.fancybox-content {
+  padding: 0; }
+
+.fancybox-slide--html .fancybox-close-small {
+  background-color: #B34215;
+  opacity: 1;
+  padding: 5px; }
+
+.fancybox-button svg path {
+  color: #fff; }
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -756,7 +781,11 @@ button, a {
   background: #B34215;
   outline: none;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all .15s ease-in-out; }
+  .btn:hover {
+    background: #DA6536;
+    color: #FFFFFF; }
   @media screen and (max-width: 420px) {
     .btn {
       max-width: 100% !important;
@@ -776,7 +805,12 @@ button, a {
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  transition: all .15s ease-in-out; }
+  .btn-tarnsparent:hover {
+    background: #FFF;
+    color: #B34215;
+    border: 2px solid #FFF; }
   @media screen and (max-width: 420px) {
     .btn-tarnsparent {
       max-width: 100% !important;
@@ -784,6 +818,9 @@ button, a {
 
 .main-color {
   color: #B34215; }
+
+[data-tabs] {
+  cursor: pointer; }
 
 .headline {
   padding: 162px 0;

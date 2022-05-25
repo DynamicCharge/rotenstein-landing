@@ -718,6 +718,10 @@ table {
 button, a {
   cursor: pointer; }
 
+._error {
+  transition: .2s;
+  border-color: #B34215 !important; }
+
 .container {
   max-width: 1140px;
   width: 100%;

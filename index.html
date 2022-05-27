@@ -244,7 +244,10 @@
                 </div>
                 <form data-page-form action="" class="request__form">
                     <input type="text" class="request__form__input" placeholder="Ваше имя" data-type="name">
-                    <input type="text" class="request__form__input" placeholder="Ваш номер телефона" data-type="phone">
+                    <div class="request__form__input__wrap">
+                        <input type="text" class="request__form__input" placeholder="Ваш номер телефона" data-type="phone">
+                        <span class="error-text">Заполните это поле!</span>
+                    </div>
                     <div class="request__form__submit-wrap">
                         <button class="request__form__submit btn">Получить предложение</button>
                         <span>Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой обработки персональных данных</a></span>
@@ -279,7 +282,7 @@
                                 <img src="assets/img/tabs-img..jpg" alt="" class="compound__content-wrap__img">
                                 <h4 class="compound__content__tabs-content__header">Общие данные</h4>
                                 <p>
-                                    Состав проекта, перечен использованных нормативных документов, описание конструкторских решений, общая и расчетная площадь дома, площадь застройки.
+                                    Состав проекта, перечень использованных нормативных документов, описание конструкторских решений, общая и расчетная площадь дома, площадь застройки.
                                 </p>
                             </div>
                             <div class="compound__content__tabs-content" data-tabs-content="Схема планировочной организации участка">
@@ -300,7 +303,7 @@
                                 <img src="assets/img/tabs-img..jpg" alt="" class="compound__content-wrap__img">
                                 <h4 class="compound__content__tabs-content__header">Планы этажей</h4>
                                 <p>
-                                    Планировка и наименование помещений и их габаритные размеры, обозначение и размер оконных и дверных проемов, отделка пола, растановка мебели.
+                                    Планировка и наименование помещений и их габаритные размеры, обозначение и размер оконных и дверных проемов, отделка пола, расстановка мебели.
                                 </p> 
                             </div> 
                             <div class="compound__content__tabs-content" data-tabs-content="План кровли">
@@ -314,7 +317,7 @@
                                 <img src="assets/img/tabs-img..jpg" alt="" class="compound__content-wrap__img">
                                 <h4 class="compound__content__tabs-content__header">План водосточной системы</h4>
                                 <p>
-                                    Расположение желобов и водостоных труб, размеры и привязка к кровле.
+                                    Расположение желобов и водосточных труб, размеры и привязка к кровле.
                                 </p>
                             </div> 
                             <div class="compound__content__tabs-content" data-tabs-content="Разрезы">
@@ -441,7 +444,7 @@
                                 <img src="assets/img/tabs-img-2-11..jpg" alt="" class="compound__content-wrap__img">
                                 <h4 class="compound__content__tabs-content__header">Общие указания </h4>
                                 <p>
-                                    Состав проекта, перечен использованных нормативных документов, описание конструкторских решений, общая и расчетная площадь дома, площадь застройки.
+                                    Состав проекта, перечень использованных нормативных документов, описание конструкторских решений, общая и расчетная площадь дома, площадь застройки.
                                 </p>
                             </div>
                             <div class="compound__content__tabs-content" data-tabs-content="(АС)Ведомость рабочих чертежей">
@@ -511,7 +514,7 @@
                                 <img src="assets/img/tabs-img-2-21..jpg" alt="" class="compound__content-wrap__img">
                                 <h4 class="compound__content__tabs-content__header">Перекрытие</h4>
                                 <p>
-                                    Опалубочный план, Армирование перекрытий.
+                                    Опалубочный план, армирование перекрытий.
                                 </p>
                             </div>
                             <div class="compound__content__tabs-content" data-tabs-content="(АС)Ведомость закладных деталей">
@@ -1366,7 +1369,7 @@
                                     <div class="working__slider__slide__pb__overlay" style="width: 30%;"></div>
                                     <span>30%</span>
                                 </div>
-                                <span class="epilog">Сообщаете пожелания и утверждаете предлагаемые решения 24</span>
+                                <span class="epilog">Сообщаете пожелания и утверждаете предлагаемые решения</span>
 
                                 <button class="btn working__btn">Получить консультацию</button>
                             </div>
@@ -1537,7 +1540,10 @@
 
                         <form data-page-form action="" class="dream__form">
                                 <input type="text" placeholder="Ваше имя" class="estimation__form__input" data-type="name">
-                                <input type="text" placeholder="Ваш номер телефона" class="estimation__form__input" data-type="phone">
+                                <div class="request__form__input__wrap">
+                                    <input type="text" placeholder="Ваш номер телефона" class="estimation__form__input" data-type="phone">
+                                    <span class="error-text">Заполните это поле!</span>
+                                </div>
                                 <input type="text" placeholder="Ваш email" class="estimation__form__input" data-type="email">
                                 <textarea placeholder="Ваш комментарий" name="" id="" cols="30" rows="3" class="estimation__form__input" data-type="comment"></textarea>
                                 <button class="dream__form__btn btn" type="submit">Записаться на встречу</button>
@@ -1732,7 +1738,10 @@
                         <form data-page-form action="" class="estimation__form">
                             <input type="text" placeholder="Ваше имя" class="estimation__form__input" data-type="name">
                             <div class="estimation__form__wrap">
-                                <input type="text" placeholder="Ваш номер телефона" class="estimation__form__input" data-type="phone">
+                                <div class="request__form__input__wrap">
+                                    <input type="text" placeholder="Ваш номер телефона" class="estimation__form__input" data-type="phone">
+                                    <span class="error-text">Заполните это поле!</span>
+                                </div>
                                 <input type="text" placeholder="Ваш email" class="estimation__form__input" data-type="email">
                             </div>
                             <textarea class="estimation__form__input" placeholder="Ваш комментарий" name="" id="" cols="30" rows="2" data-type="comment"></textarea>
@@ -1809,7 +1818,10 @@
                                 
                                 <input type="text" placeholder="Ваше имя" class="estimation__form__input" data-type="name">
                                 <div class="estimation__form__wrap">
-                                    <input type="text" placeholder="Ваш номер телефона" class="estimation__form__input" data-type="phone">
+                                    <div class="request__form__input__wrap">
+                                        <input type="text" placeholder="Ваш номер телефона" class="estimation__form__input" data-type="phone">
+                                        <span class="error-text">Заполните это поле!</span>
+                                    </div>
                                     <input type="text" placeholder="Ваш email" class="estimation__form__input" data-type="email">
                                 </div>
                                 <button type="submit" class="btn consultation__btn">Получить консультацию</button>

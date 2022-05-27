@@ -720,7 +720,13 @@ button, a {
 
 ._error {
   transition: .2s;
-  border-color: #B34215 !important; }
+  border-color: #e02222 !important; }
+
+.error-text {
+  font-size: 15px !important;
+  color: #e02222 !important;
+  display: none;
+  padding-top: 10px; }
 
 #gant-table-popup {
   max-width: 1140px;
@@ -1085,6 +1091,12 @@ button, a {
     justify-content: start;
     align-items: flex-start;
     flex-wrap: wrap; }
+  .request .request__form__input__wrap {
+    max-width: 425px;
+    width: 100%;
+    margin-right: 20px; }
+    .request .request__form__input__wrap input {
+      margin-bottom: 3px; }
   .request .request__form__input {
     max-width: 425px;
     width: 100%;
@@ -1539,7 +1551,7 @@ button, a {
   gap: 30px 40px;
   padding: 0;
   list-style-type: none;
-  margin-bottom: 50px; }
+  margin-bottom: 40px; }
 
 .working .working__slider__slide__list__item__heading {
   display: flex;
@@ -1621,7 +1633,7 @@ button, a {
   display: block; }
 
 .working .working__btn {
-  margin-top: 118px; }
+  margin-top: 40px; }
 
 .working .working__slider__slide__right {
   max-width: 443px; }
@@ -1816,6 +1828,7 @@ button, a {
       object-fit: contain;
       margin-right: 23px; }
   .about .about__list__item__header {
+    display: block;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -2090,6 +2103,8 @@ button, a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 123%; }
+    .estimation .estimation__form textarea {
+      max-height: unset; }
     .estimation .estimation__form span {
       font-family: 'Myriad Pro';
       font-style: normal;
@@ -2123,6 +2138,8 @@ button, a {
     color: #FFFFFF; }
 
 .estimation__form__input {
+  min-height: 40px;
+  max-height: 40px;
   width: 100%;
   padding: 10px 12px;
   box-sizing: border-box;
@@ -2294,6 +2311,9 @@ button, a {
     justify-content: start; }
     .consultation .estimation__form__wrap input:first-child {
       margin-bottom: 10px; }
+  .consultation .consultation__form__border-container {
+    border: 0;
+    padding: 0; }
   .consultation .consultation__form {
     max-width: 100%;
     padding: 30px 30px 35px;
@@ -2301,7 +2321,8 @@ button, a {
   .consultation .consultation__form__wrapper {
     border: none; }
   .consultation .consultation__wrapper {
-    padding: 0; }
+    padding: 0;
+    outline: 0; }
   .portfolio .slick-slide {
     margin: 0; }
   .consultation {
@@ -2386,7 +2407,7 @@ button, a {
     line-height: 110%;
     margin-bottom: 12px; }
   .working .working__slider__desc {
-    margin-bottom: 75px;
+    margin-bottom: 35px;
     font-size: 14px;
     line-height: 160%; }
   .working .working__slider__slide__right {

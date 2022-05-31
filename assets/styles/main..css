@@ -715,6 +715,9 @@ table {
   min-height: 0;
   min-width: 0; }
 
+.designing-page .slick-dotted.slick-slider {
+  display: block; }
+
 .designing-page ul, .designing-page ol {
   padding-left: 0; }
 
@@ -780,7 +783,7 @@ table {
   max-width: 366px;
   width: 100%;
   text-align: center;
-  padding: 12px 0 9px;
+  padding: 12px 0 9px !important;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -1095,13 +1098,13 @@ table {
     align-items: flex-start;
     flex-wrap: wrap; }
   .designing-page .request .request__form__input__wrap {
-    max-width: 425px;
+    max-width: 410px;
     width: 100%;
     margin-right: 20px; }
     .designing-page .request .request__form__input__wrap input {
       margin-bottom: 3px; }
   .designing-page .request .request__form__input {
-    max-width: 425px;
+    max-width: 410px;
     width: 100%;
     background: transparent;
     border: 1px solid #F1F1F1;

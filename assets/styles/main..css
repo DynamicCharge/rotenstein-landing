@@ -715,6 +715,9 @@ table {
   min-height: 0;
   min-width: 0; }
 
+.designing-page ul, .designing-page ol {
+  padding-left: 0; }
+
 .designing-page button, .designing-page a {
   cursor: pointer; }
 
@@ -1312,7 +1315,7 @@ table {
     margin-bottom: 66px; }
   .designing-page .advantages .advantages__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(310px, 550px));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 545px));
     gap: 20px;
     justify-content: center; }
   .designing-page .advantages .advantages__list__item {
